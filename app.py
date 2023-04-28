@@ -13,7 +13,7 @@ def bot():
     # use the incoming_message to generate a response
 
     resp = MessagingResponse()
-    resp = resp.message("this is the response")
+    resp.message("this is the response")
     print(str(resp))
     return str(resp)
 
