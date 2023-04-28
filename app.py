@@ -4,7 +4,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 app = Flask(__name__)
 # flask is a way to create a web server and handle requests from twilio
 
-@app.route("/bot/{key}", methods=['GET','POST'])
+@app.route("/bot", methods=['GET','POST'])
 def bot():
 
     incoming_message = request.values['Body']
