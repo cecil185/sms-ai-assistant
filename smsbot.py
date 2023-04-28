@@ -2,7 +2,7 @@ import os
 import openai
 from dotenv import load_dotenv
 
-load_dotenv() 
+load_dotenv() # Load environment variables from .env file
 OPENAPI_API_KEY = os.environ.get("OPENAPI_API_KEY")
 
 def fetch_twilio_webhook_data():
