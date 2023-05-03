@@ -1,12 +1,17 @@
 [tool.poetry]
-name = "pytime"
+name = "sms-ai-assistant"
 version = "0.1.0"
 description = ""
 authors = ["Cecil <cecil.ash@karbonhq.com>"]
 readme = "README.md"
+packages = [{include = "sms_ai_assistant"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+twilio = "^8.1.0"
+python-dotenv = "^1.0.0"
+pyngrok = "^6.0.0"
+flask = "^2.3.2"
 
 
 [build-system]
